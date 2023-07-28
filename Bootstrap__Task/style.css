@@ -1,0 +1,53 @@
+
+
+
+
+body{
+    background-color: #f1fbff;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.corousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.w-100{
+    height: 100vh;
+
+}
+h3,p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .card{
+        margin-bottom: 30px;
+    }   
+}
+
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+  
+   .card{
+    margin-bottom: 30px;
+    margin-left: 35px;
+    /* margin-right: 50px; */
+   }
+
+   .slide img{
+    height: 200px;
+
+   }
+
+}
